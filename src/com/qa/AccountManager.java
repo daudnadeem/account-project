@@ -1,3 +1,4 @@
+package com.qa;
 import java.util.HashMap;
 
 public class AccountManager {
@@ -8,6 +9,7 @@ public class AccountManager {
 	public void addAccount(Account acc) {
 		name = acc.getFirstName() + acc.getLastName();
 		myMap.put(name, acc.getAccountNumber());
+		
 	}
 
 	public HashMap<String, Integer> getMyMap() {
