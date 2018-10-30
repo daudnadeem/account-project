@@ -1,5 +1,6 @@
 package com.qa;
 import java.util.HashMap;
+import java.util.Map;
 
 public class AccountManager {
 	
@@ -12,7 +13,7 @@ public class AccountManager {
 		
 	}
 
-	public HashMap<String, Integer> getMyMap() {
+	public Map<String, Integer> getMyMap() {
 		return myMap;
 	}
 
